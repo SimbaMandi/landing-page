@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333333;
-  margin: 0;
+  margin: 60px;
   padding: 20px;
 }
 
@@ -18,12 +18,14 @@ body {
   display: flex;
   direction: column;
   justify-content: center;
+  padding: 50px;
 }
 
 .facts {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 20px;
   width: 100%;
 }
 
